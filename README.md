@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/bdGBDHqwKtn6BLCkJoeU">
       Solution / Solución
     </a>
     <span> | </span>
@@ -47,8 +47,8 @@
 <img src="./screenshots/Mobile_ss(1).png" alt="mobile view 2 | vista móvil 2" width="300" height="auto" />
 <img src="./screenshots/Mobile_ss(2).png" alt="mobile view 3 | vista móvil 3" width="300" height="auto" />
 
-Hello everyone, I hope you are well. This is my [solution](https://{solution-url}) to [challenge](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) from Devchallenges.io |
-Hola a todos, espero que estén bien. Esta es mi [solución](https://{solution-url}) al [desafío](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) de Devchallenges.io
+Hello everyone, I hope you are well. This is my [solution](https://devchallenges.io/solutions/bdGBDHqwKtn6BLCkJoeU) to [challenge](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) from Devchallenges.io |
+Hola a todos, espero que estén bien. Esta es mi [solución](https://devchallenges.io/solutions/bdGBDHqwKtn6BLCkJoeU) al [desafío](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) de Devchallenges.io
 
 Here you can see my [demo](https://javiervaleriano.github.io/devchallenge-edie-homepage/). |
 Aquí pueden ver mi [demo](https://javiervaleriano.github.io/devchallenge-edie-homepage/).
