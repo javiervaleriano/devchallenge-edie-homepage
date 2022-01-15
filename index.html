@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Edie | Home</title>
+    <!-- Preconnects -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles.css"/>
+    <!-- JavaScript -->
+    <script src="./app.js" type="module"></script>
+    <!-- Touch Icons -->
+    <link rel="apple-touch-icon" href="/touch-icons/touch-icon-ipad.png" sizes="114x114"/>
+    <link rel="apple-touch-icon" href="/touch-icons/touch-icon-iphone.png" sizes="57x57"/>
+    <!-- Íconos -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <header class="header">
+        <h1 class="companyname header__companyname">Edie</h1>
+        <div class="nav__toggle">
+            <span class="nav__toggle__line nav__toggle__line--1"></span>
+            <span class="nav__toggle__line nav__toggle__line--2"></span>
+            <span class="nav__toggle__line nav__toggle__line--3"></span>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__items">
+                    <a class="nav__links" href="#hero">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a class="nav__links" href="#services">Servicios</a>
+                </li>
+                <li class="nav__items">
+                    <a class="nav__links" href="#portfolio">Nuestros trabajos</a>
+                </li>
+                <li class="nav__items">
+                    <a class="nav__links" href="#review">Clientes</a>
+                </li>
+                <li class="nav__items">
+                    <a class="nav__links" href="#footer">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <section id="hero" class="section section__hero">
+            <header class="section__hero__heading">
+                <h3 class="section__hero__subtitle">¿Infeliz con tu sitio web?</h3>
+                <h2 class="title section__hero__title hero__title--1">Creamos hermosos<br/>
+                    y rápidos servicios web</h2>
+                <img class="section__hero__img" src="edie-homepage-master/heroImage.jpg" alt="Equipo en una reunión creativa"/>
+            </header>
+            <article class="section__hero__article">
+                <header class="hero__article__heading">
+                    <h2 class="title section__hero__title hero__title--2">Historia, emoción<br/>
+                        y propósito</h2>
+                </header>
+                <p class="section__hero__pgph">Te ayudamos a transformar tus ideas en aplicaciones del mundo real que superarán a tu competencia más dura y te ayudarán a alcanzar tus objetivos estratégicos en poco tiempo.</p>
+                <footer class="hero__article__footer">
+                    <form class="form section__hero__form" name="email-form">
+                        <label class="form__label hero__form__label" for="e-mail">¿Quieres que te contactemos?</label>
+                        <p class="form__field hero__form__field">
+                            <input type="email" name="email" id="e-mail" placeholder="Correo" pattern="^[a-z0-9]+(\.|_|[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" title="❌ Introduce una dirección de correo válida" class="form__input hero__form__input" required />
+                            <button class="form__btn hero__form__btn" type="submit">Unirme</button>
+                        </p>
+                        <div class="form__cont__loader hero__form__cont__loader">
+                            <img src="three-dots.svg" alt="Loader de carga de tres puntos" class="form__loader hero__form__loader none" />
+                        </div>
+                    </form>
+                </article>
+            </div>
+        </section>
+    </main>
+    <section id="services" class="section section__services">
+        <h2 class="title section__services__title">Ofrecemos servicios<br />
+            de alta demanda</h2>
+        <div class="section__services__items">
+            <article class="section__services__item">
+                <header class="services__heading">
+                    <i class="material-icons services__icon services__icon--1">create</i>
+                    <h3 class="section__services__subtitle">Diseño UI/UX</h3>
+                </header>
+                <p class="section__services__pgph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, ea obcaecati saepe iusto eius reiciendis ipsa itaque?</p>
+                <footer class="services__footer">
+                    <button class="section__services__btn" type="button">Empezar</button>
+                </footer>
+            </article>
+            <article class="section__services__item">
+                <header class="services__heading">
+                    <i class="material-icons services__icon services__icon--2">code</i>
+                    <h3 class="section__services__subtitle">Front End</h3>
+                </header>
+                <p class="section__services__pgph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, ea obcaecati saepe iusto eius reiciendis ipsa itaque?</p>
+                <footer class="services__footer">
+                    <button class="section__services__btn" type="button">Empezar</button>
+                </footer>
+            </article>
+            <article class="section__services__item">
+                <header class="services__heading">
+                    <i class="material-icons services__icon services__icon--3">storage</i>
+                    <h3 class="section__services__subtitle">Back End</h3>
+                </header>
+                <p class="section__services__pgph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, ea obcaecati saepe iusto eius reiciendis ipsa itaque?</p>
+                <footer class="services__footer">
+                    <button class="section__services__btn" type="button">Empezar</button>
+                </footer>
+            </article>
+        </div>
+    </section>
+    <section id="portfolio" class="section section__portfolio">
+        <h2 class="title section__portfolio__title">Un buen diseño es<br />
+            un buen negocio</h2>
+        <div class="container__portfolio__items">
+            <figure class="section__portfolio__item portfolio__item--1">
+                <img class="section__portfolio__img" src="edie-homepage-master/smarthome.jpg" alt="Interfaz de tablero de mandos de casa inteligente" loading="lazy" />
+                <p class="section__portfolio__typesvc">Aplicación Full Stack</p>
+                <figcaption class="section__portfolio__desc">Panel de control de casa inteligente</figcaption>
+            </figure>
+            <figure class="section__portfolio__item portfolio__item--2">
+                <img class="section__portfolio__img" src="edie-homepage-master/onboard.png" alt="Imagen con interfaces móviles" loading="lazy" />
+                <p class="section__portfolio__typesvc">Diseño UI/UX</p>
+                <figcaption class="section__portfolio__desc">Aplicación a bordo</figcaption>
+            </figure>
+            <figure class="section__portfolio__item portfolio__item--3">
+                <img class="section__portfolio__img" src="edie-homepage-master/booking.png" alt="Interfaces de una aplicación de reservas" loading="lazy" />
+                <p class="section__portfolio__typesvc">Aplicación móvil</p>
+                <figcaption class="section__portfolio__desc">Sistema de reservas</figcaption>
+            </figure>
+            <figure class="section__portfolio__item portfolio__item--4">
+                <img class="section__portfolio__img" src="edie-homepage-master/juice-product.png" alt="Página de inicio de una web de productos de jugo" loading="lazy" />
+                <p class="section__portfolio__typesvc">Aplicación Front End</p>
+                <figcaption class="section__portfolio__desc">Página de inicio de productos de jugo</figcaption>
+            </figure>
+            <button class="section__portfolio__btn" type="button">
+                <a href="https://github.com/javiervaleriano?tab=repositories" class="portfolio__btn__link">
+                    ver más <i class="material-icons portfolio__btn__icon">arrow_right_alt</i>
+                </a>
+            </button>
+        </div>
+    </section>
+    <section id="team" class="section section__team">
+        <header class="container__team__title">
+            <h3 class="section__team__subtitle">Conoce al equipo</h3>
+            <h2 class="title section__team__title">Somos un equipo<br />
+                tranquilo y<br />
+                relajado</h2>
+            <p class="section__team__pgph">Lorem ipsum dolor sit amet,<br />
+                consectetur adipisicing elit.</p>
+        </header>
+        <figure class="container__team__imgs">
+            <img class="section__team__img team__img--1" src="edie-homepage-master/person3.jpg" alt="Chica en la calle sonriendo a la cámara" loading="lazy" />
+            <img class="section__team__img team__img--2" src="edie-homepage-master/person1.jpg" alt="Chico en exteriores sonriendo a la cámara" loading="lazy" />
+            <img class="section__team__img team__img--3" src="edie-homepage-master/person2.jpg" alt="Chico con lentes sonriendo mientras observa algo fuera del campo visual de la cámara" loading="lazy" />
+        </figure>
+    </section>
+    <section id="review" class="section section__quote">
+        <figure class="section__quote__figure">
+            <blockquote class="figure__blockquote">
+                <p class="figure__quote">Resultados rápidos y sobresalientes. Edie entiende las necesidades de sus clientes. Tienen un equipo joven y con talento.</p>
+            </blockquote>
+            <figcaption class="figure__attribution">
+                <img src="edie-homepage-master/person4.jpg" alt="Carlos Tran mirando a cámara mientras sonríe" class="attribution__img" loading="lazy" />
+                <span class="attribution__name">Carlos Tran</span>
+                <cite class="attribution__cite">The Decorate Gatsby</cite>
+            </figcaption>
+        </figure>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="cont__footer__ppalinfo">
+            <ul class="footer__list__links">
+                <li class="footer__li">
+                    <a class="footer__link" href="#hero">Inicio</a>
+                </li>
+                <li class="footer__li">
+                    <a class="footer__link" href="#services">Servicios</a>
+                </li>
+                <li class="footer__li">
+                    <a class="footer__link" href="#portfolio">Nuestros trabajos</a>
+                </li>
+                <li class="footer__li">
+                    <a class="footer__link" href="#review">Clientes</a>
+                </li>
+                <li class="footer__li">
+                    <a class="footer__link" href="#footer">Contacto</a>
+                </li>
+            </ul>
+            <address class="footer__company">
+                <h4 class="companyname footer__companyname">Edie</h4>
+                <figure class="cont__footer__icons">
+                    <a href="https://instagram.com/javiervalerianoz" target="blank" rel="noopener noreferrer">
+                        <img class="footer__icon" src="edie-homepage-master/instagram.svg" alt="Ícono de Instagram"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/javier-valeriano1508/" target="blank" rel="noopener noreferrer">
+                        <img class="footer__icon" src="edie-homepage-master/linkedin.svg" alt="Ícono de LinkedIn"/>
+                    </a>
+                    <a href="https://twitter.com/javaleriano2" target="blank" rel="noopener noreferrer">
+                        <img class="footer__icon" src="edie-homepage-master/twitter.svg" alt="Ícono de Twitter"/>
+                    </a>
+                </figure>
+            </address>
+            <form class="form footer__form">
+                <label class="form__label footer__form__label" for="email-f">¿Quieres que te contactemos?</label>
+                <p class="form__field footer__form__field">
+                    <input type="email" name="email" id="email-f" placeholder="Correo" pattern="^[a-z0-9]+(\.|_|[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" title="Correo inválido" class="form__input footer__form__input" required />
+                    <button class="form__btn footer__form__btn" type="submit">Unirme</button>
+                    <div class="form__cont__loader footer__form__cont__loader">
+                        <img src="three-dots.svg" alt="Loader de carga de tres puntos" class="form__loader footer__form__loader none" />
+                    </div>
+                </p>
+            </form>
+        </div>
+        <p class="footer__page__author">Creado por <a class="page__author__link" target="blank" rel="author">Javier Valeriano</a></p>
+    </footer>
+    <!-- Botón back to top -->
+    <a href="#hero" class="back-to-top invisible">
+        <i class="material-icons to-top__icon">keyboard_arrow_up</i>
+    </a>
+</body>
+</html>
