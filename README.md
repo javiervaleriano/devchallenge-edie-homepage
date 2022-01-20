@@ -34,7 +34,7 @@
 
 <!-- OVERVIEW -->
 
-## Overview
+## Overview | Visión general
 
 ### Desktop | Escritorio
 ![Desktop view 1 | Vista de escritorio 1](./screenshots/Desktop_ss.png)
@@ -67,7 +67,7 @@ lang="es": A este proyecto le agregué varios detalles de valor para la experien
 Además, entre mis toques personales, cambio dinámicamente cada 5 segundos el enlace del footer a mis perfiles de desarrollador.
 
 
-### Built With
+### Built With | Construido con
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
@@ -76,7 +76,7 @@ Además, entre mis toques personales, cambio dinámicamente cada 5 segundos el e
 - [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
 
-## Features
+## Features | Características
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
@@ -96,7 +96,7 @@ Extra: Surprise me with mobile navigation. |
 Extra: Sorpréndeme con la navegación móvil.
 
 
-## Acknowledgements
+## Acknowledgements | Agradecimientos
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example -->
 
@@ -111,7 +111,7 @@ Extra: Sorpréndeme con la navegación móvil.
 - [Animaciones al Scrollear con Intersection Observer | Javascript](https://www.youtube.com/watch?v=cVsqA4NhDoI)
 
 
-## Contact
+## Contact | Contacto
 
 - [Devchallenges profile | Perfil de Devchallenges](https://devchallenges.io/portfolio/javiervaleriano)
 - Codepen: [@javiervaleriano](https://codepen.io/javiervaleriano)
